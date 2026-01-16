@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html lang="uk">
+<head>
+  <meta charset="UTF-8">
+  <title>Пошук даних з API</title>
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@pnotify/core/dist/PNotify.css" />
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@pnotify/core/dist/BrightTheme.css" />
+</head>
+<body>
+  <h1>Пошук даних</h1>
+  <form id="search-form">
+    <input type="text" id="search-input" placeholder="Введіть запит" required />
+    <button type="submit">Пошук</button>
+  </form>
+  <div id="results-container"></div>
+  <script src="https://cdn.jsdelivr.net/npm/@pnotify/core/dist/PNotify.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/axios/dist/axios.min.js"></script>
+  <script src="script.js"></script>
+</body>
+</html>
